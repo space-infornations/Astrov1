@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #1e1e2f, #2d2d4a);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.subtitle {
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.zodiac-card {
+  background-color: #2f2f4f;
+  border-radius: 1rem;
+  padding: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.zodiac-card:hover {
+  background-color: #4e4eb0;
+  transform: scale(1.05);
+}
