@@ -1,26 +1,43 @@
 body {
-  background: linear-gradient(to right, #1e1e2f, #2d2d4a);
-  color: #fff;
-  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  overflow-x: hidden;
+}
+
+.title {
+  color: #f7c59f;
+  letter-spacing: 2px;
 }
 
 .subtitle {
   color: #ccc;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
 }
 
 .zodiac-card {
-  background-color: #2f2f4f;
-  border-radius: 1rem;
-  padding: 20px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px 10px;
+  backdrop-filter: blur(10px);
+  color: #fff;
   font-size: 1.3rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
 }
 
 .zodiac-card:hover {
-  background-color: #4e4eb0;
-  transform: scale(1.05);
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.footer-text {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 40px;
 }
